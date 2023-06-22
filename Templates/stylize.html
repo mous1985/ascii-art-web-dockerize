@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>ascii-art-stylize</title>
+  <link rel="stylesheet" href="css/stylize.css">
+
+
+
+</head>
+
+<body>
+  
+
+  
+
+<h1> Ascii-Art-Stylize</h1>
+
+<h2 >Veuillez choisir une police: </h2>
+
+<h3>
+<form id="" action="/ascii" method="post">
+ 
+  <label for="fichier2"></label><input type="radio" name="fichier" id="fichier2" value="standard"> standard<br>
+  <label for="fichier3"></label><input type="radio" name="fichier" id="fichier3" value ="thinkertoy"> thinkertoy<br>
+  <label for="fichier1"></label><input type="radio" name="fichier" id="fichier1" value="shadow"> shadow<br>
+
+<br>
+
+<p> Veuillez saisir un texte:</p>
+<p>
+<textarea id ="textarea" name="formulaire" action="/ascii" method="POST"  rows="15" cols="55" placeholder="entrez texte :" ></textarea>
+</p>
+<br>
+
+<input type="submit" value="valider">
+</h3>
+</form>
+<br>
+<br>
+<pre>{{.str}}</pre>
+
+
+
+
+
+
+</body>
+</html>
